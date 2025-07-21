@@ -5,5 +5,5 @@
     "sourceFlag": "--source services/cloud-run",
     "allowUnauthenticatedInvocationsFlag": "--allow-unauthenticated"
   },
-  "gemini_api": {}
+  "gemini_api": {AIzaSyAdt-JcXfSdZuP6g8xbnJSrMSvQAeDtTys}
 }
