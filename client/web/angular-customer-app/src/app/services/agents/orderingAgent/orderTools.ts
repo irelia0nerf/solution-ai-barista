@@ -204,24 +204,6 @@ export const orderingTool: FunctionDeclarationsTool = {
       description: "Returns the customer's  order.",
     },
     {
-      name: 'add_to_order',
-      description:
-        "Adds a drink to the customer's order with optional modifiers.",
-      parameters: {
-        type: SchemaType.OBJECT,
-        properties: {
-          drink: Schema.enumString({
-            enum: menuAllBeverages,
-            description: 'The name of the drink.',
-          }),
-          modifiers: Schema.array({
-            items: Schema.string({ nullable: true }),
-            description: 'An array of modifiers for the drink (optional).',
-          }),
-        },
-      },
-    },
-    {
       name: 'remove_item',
       description: 'Remove the nth (zero-based) item from the order.',
       parameters: {
